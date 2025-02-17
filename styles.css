@@ -247,6 +247,26 @@ nav li:hover {
     width: 30%;
 }
 
+@media (max-width: 768px) {
+  .contact_us > form {
+    width: 80%;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    margin: 2em;
+  }
+  footer img{
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_us > form {
+    width: 90%;
+  }
+}
+
 .contact_us label{
   font-weight: bold;
   color: #fff;
@@ -256,10 +276,12 @@ nav li:hover {
 }
 
 
-  footer {
-    display: flex;
-    justify-content: space-between;
-  }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
   footer img {
     display: flex;
     justify-content: start;
