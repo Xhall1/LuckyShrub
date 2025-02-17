@@ -47,7 +47,7 @@ nav li:hover {
     align-items: center;
     margin: 5em;
     text-shadow: #0b3f3b 2px 5px 1px ;
-    box-shadow: rgba(0, 0, 0, 0.116) 0px 20px 30px;
+
     margin: 10rem;
     padding: 2rem;
 }
@@ -148,13 +148,12 @@ nav li:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 5rem;
     gap: 1.5rem;
   }
   .about h2 {
     display: flex;
     justify-content: center;
-    font-size: 4em;
+
     color: #fff;
     text-shadow: #000000 2px 5px 1px ;
   }
@@ -167,7 +166,6 @@ nav li:hover {
   .about ul {
     text-align: left;
     list-style: circle;
-    padding: 1em;
     color: #b8b8b8;
   }
 
@@ -211,10 +209,57 @@ nav li:hover {
     }
   }
 
-footer {
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .contact > h1{
+    font-size: 3em;
+    text-shadow: #05221f 0px 5px 4px;
+  }
+
+  .contact > p{
+    margin: 2em;
+    font-size: 1.2em;
+    text-shadow: #05221f 0px 5px 4px;
+  }
+
+  .contact_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  .contact_us > form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 30%;
+}
+
+.contact_us label{
+  font-weight: bold;
+  color: #fff;
+}
+.contact_us > form > div {
+  margin-bottom: 15px;
+}
+
+
+  footer {
     display: flex;
     justify-content: space-between;
-}
+  }
   footer img {
     display: flex;
     justify-content: start;
